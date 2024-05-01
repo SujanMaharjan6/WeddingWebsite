@@ -1,0 +1,140 @@
+.mainHeader {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 32px 20px;
+    width: 100%;
+    z-index: 1;
+    border: 12px solid #ffffff;
+    background-color: #231f20;
+}
+
+.mainHeaderText {
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+    font-family: "Cormorant", Garamond;
+    letter-spacing: 2px;
+    color: #231f20;
+    font-size: 18px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+h1 {
+    line-height: 1;
+    margin: 16px 0;
+    font-family: "Cormorant", Garamond;
+    color: #231f20;
+    font-size: 4.5vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-bottom: 15px;
+}
+
+.timeAndPlaceInfoText {
+    line-height: 1;
+    margin: 8px 0;
+    font-family: "Cormorant", Garamond;
+    letter-spacing: 3px;
+    color: #231f20;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.navBarItem {
+    font-family: "Cormorant", Garamond;
+    letter-spacing: 2px;
+    color: #231f20;
+    font-size: 18px;
+    font-weight: normal;
+    border-bottom: 2px solid transparent;
+    display: block;
+    letter-spacing: 2px;
+    line-height: 1;
+    margin: 0 auto;
+    padding: 8px 8px 6px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.navBarItem:hover {
+    border-bottom: 1px solid rgba(35, 31, 32, 0.15);
+}
+
+.navBarHeadingDuringCollapse {
+    display: none;
+    width: 27%;
+    font-family: "Cormorant", Garamond;
+    font-size: 28px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.homePageMainImageFirst {
+    width: 320px;
+    height: 500px;
+    display: none;
+}
+
+.navbar-collapse.show {
+    transform: translateY(0);
+    opacity: 1;
+    height: auto;
+}
+
+.show{
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 2px 1px rgba(35, 31, 32, 0.15) !important;
+}
+
+.nav-link.active-nav-item .navBarItem:hover {
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 640px) {
+    nav {
+        height: 56px;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 18;
+        background-color: #ffffff;
+    }
+
+    .navbar-toggler:not(.collapsed)~.navBarHeadingDuringCollapse {
+        display: block;
+    }
+
+    .homePageMainImageFirst {
+        display: block;
+    }
+
+    .navbar-collapse {
+        transition: transform 0.4s ease, opacity 0.4s ease;
+        transform: translateY(100%);
+        opacity: 0;
+        display: block;
+        height: 0; 
+        overflow: hidden;
+    }
+}

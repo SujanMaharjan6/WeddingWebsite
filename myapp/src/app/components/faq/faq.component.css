@@ -1,0 +1,27 @@
+h4 {
+    margin: 24px 0px 0px;
+    text-align: center;
+    font-family: "Cormorant", Garamond;
+    letter-spacing: 3px;
+    color: rgb(35, 31, 32);
+    font-size: 22px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.content {
+    padding: 0px;
+    max-width: 550px;
+    text-align: center;
+    line-height: 1.75;
+    margin: 32px auto;
+    font-family: "Cormorant", Garamond;
+    letter-spacing: 2px;
+    color: rgb(35, 31, 32);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.container {
+    text-align: center;
+}

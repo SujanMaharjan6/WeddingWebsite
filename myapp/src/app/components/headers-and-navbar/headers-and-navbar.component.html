@@ -1,0 +1,84 @@
+<div class="container">
+    <div class="row">
+        <div class="col d-flex justify-content-center align-items-center">
+            <img class="homePageMainImageFirst img-fluid" src="assets/images/pic1.JPEG" alt="Ruksha & Senthuran">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col mainHeader">
+            <p class="mainHeaderText">You are invited to celebrate our special days with us! Join us for our Hindu
+                Wedding on 3 July 2024 and our Reception on 5 July 2024.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center align-items-center">
+            <img src="assets/images/logo.png" alt="R & S" width="260px" height="260px">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center align-items-center">
+            <h1>Ruksha & Senthuran</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center align-items-center">
+            <p class="timeAndPlaceInfoText">July 3, 2024 • Oshawa, L1J 2JB</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center align-items-center">
+            <p class="timeAndPlaceInfoText">July 5, 2024 • Etobicoke, M9V 2Z8</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center align-items-center">
+            <p class="timeAndPlaceInfoText">{{ daysUntil }}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center align-items-center mt-4">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                   
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation" 
+                            (click)="toggleNavBar()">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navBarHeadingDuringCollapse">R & S</div>
+                    <div class="collapse navbar-collapse" [ngClass]="{'show': !collapseNavBar}"
+                         id="navbarSupportedContent">
+                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" routerLink="/home" routerLinkActive="active-nav-item" [routerLinkActiveOptions]="{exact: true}">
+                                    <span class="navBarItem">Home</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" routerLink="/FAQ" routerLinkActive="active-nav-item">
+                                    <span class="navBarItem">FAQ</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" routerLink="/weddingVenue" routerLinkActive="active-nav-item">
+                                    <span class="navBarItem">Wedding Venues</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" routerLink="/invitation" routerLinkActive="active-nav-item">
+                                    <span class="navBarItem">Invitation</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" routerLink="/weddingAttire" routerLinkActive="active-nav-item">
+                                    <span class="navBarItem">Wedding Attire</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>

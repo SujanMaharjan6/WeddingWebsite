@@ -1,0 +1,25 @@
+h3 {
+    margin: 44px 0px 0px;
+    text-align: center;
+    font-family: "Cormorant", Garamond;
+    color: rgb(35, 31, 32);
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.content {
+    margin: 0;
+    font-family: "Cormorant", Garamond;
+    letter-spacing: 2px;
+    color: #231f20;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    margin-top: 20px;
+}
