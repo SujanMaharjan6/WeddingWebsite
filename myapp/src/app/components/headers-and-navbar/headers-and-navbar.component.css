@@ -98,7 +98,7 @@ h1 {
     height: auto;
 }
 
-.show{
+.show {
     background-color: rgb(255, 255, 255);
 }
 
@@ -134,11 +134,11 @@ h1 {
         transform: translateY(100%);
         opacity: 0;
         display: block;
-        height: 0; 
+        height: 0;
         overflow: hidden;
     }
 
-    .timeAndPlaceInfoText{
-font-size: 15px;
+    .timeAndPlaceInfoText {
+        font-size: 15px;
     }
 }

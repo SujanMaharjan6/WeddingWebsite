@@ -6,12 +6,12 @@
     margin: 12px auto;
     padding: 20px 72px 20px 0;
     width: 315px;
-    border-right: 1px solid #231f20; 
+    border-right: 1px solid #231f20;
     font-family: "Cormorant", Garamond;
     color: #231f20;
     font-size: 30px;
     font-weight: normal;
-    letter-spacing: 4px; 
+    letter-spacing: 4px;
     text-transform: uppercase;
 }
 
@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-.locationText{
+.locationText {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -38,11 +38,11 @@
     color: #231f20;
     font-size: 30px;
     font-weight: normal;
-    letter-spacing: 4px; 
+    letter-spacing: 4px;
     text-transform: uppercase;
 }
 
-.weddingHeader{
+.weddingHeader {
     line-height: 1;
     margin: 32px 0 -10px 0;
     font-family: "Cormorant", Garamond;
@@ -53,7 +53,7 @@
     letter-spacing: 3px;
 }
 
-.dateAndTime{
+.dateAndTime {
     margin: 0px 0;
     font-family: "Cormorant", Garamond;
     letter-spacing: 3px;
@@ -63,7 +63,7 @@
     text-transform: uppercase;
 }
 
-.location{
+.location {
     margin: 0;
     font-family: "Cormorant", Garamond;
     letter-spacing: 2px;
@@ -72,7 +72,8 @@
     font-weight: normal;
 }
 
-.forBorder, .forBorder1 {
+.forBorder,
+.forBorder1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +97,7 @@
     text-align: center;
 }
 
-.forBorder1{
+.forBorder1 {
     border-top: 1px solid rgba(35, 31, 32, 0.15);
     padding-top: 25px;
 }
@@ -114,24 +115,29 @@
         align-items: center;
         font-size: 20px;
     }
-    .locationText{
+
+    .locationText {
         padding-left: 40px;
         font-size: 20px;
     }
+
     .homePageMainImageSecond {
         display: none;
     }
-    .weddingHeader{
+
+    .weddingHeader {
         font-size: 25px;
     }
-    .dateAndTime{
+
+    .dateAndTime {
         font-size: 19px;
     }
-    .location{
+
+    .location {
         font-size: 16px;
     }
-    .itenaryTimeAndInformation{
+
+    .itenaryTimeAndInformation {
         font-size: 19px;
     }
 }
-

@@ -10,7 +10,7 @@ export class HeadersAndNavbarComponent implements OnInit, OnDestroy {
   private intervalId: number = 0;
   public collapseNavBar = true;
   public showSecondImage: boolean = false;
-  
+
   toggleNavBar() {
     this.collapseNavBar = !this.collapseNavBar;
   }
