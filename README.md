@@ -1,8 +1,8 @@
+This wedding website was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
+
 ## Link to this website
 
 https://ruksha-senthuran.vercel.app/home
-
-This wedding website was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
 
 ## Development server
 
