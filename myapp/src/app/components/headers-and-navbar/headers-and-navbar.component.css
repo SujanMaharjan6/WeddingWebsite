@@ -137,4 +137,8 @@ h1 {
         height: 0; 
         overflow: hidden;
     }
+
+    .timeAndPlaceInfoText{
+font-size: 15px;
+    }
 }

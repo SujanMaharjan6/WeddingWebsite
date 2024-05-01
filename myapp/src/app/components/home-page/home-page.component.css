@@ -109,15 +109,29 @@
 
 @media (max-width: 640px) {
     .dateText {
-        padding-right: 20px;
+        padding-right: 0px;
         width: 100%;
         align-items: center;
+        font-size: 20px;
     }
     .locationText{
-        padding-left: 35px;
+        padding-left: 40px;
+        font-size: 20px;
     }
     .homePageMainImageSecond {
         display: none;
+    }
+    .weddingHeader{
+        font-size: 25px;
+    }
+    .dateAndTime{
+        font-size: 19px;
+    }
+    .location{
+        font-size: 16px;
+    }
+    .itenaryTimeAndInformation{
+        font-size: 19px;
     }
 }
 
