@@ -10,11 +10,24 @@ h4 {
 }
 
 .content {
+    padding: 10px;
+    max-width: 550px;
+    text-align: center;
+    line-height: 1.75;
+    margin: 32px auto 0px auto;
+    font-family: "Cormorant", Garamond;
+    letter-spacing: 2px;
+    color: rgb(35, 31, 32);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.contentForReception{
     padding: 0px;
     max-width: 550px;
     text-align: center;
     line-height: 1.75;
-    margin: 32px auto;
+    margin: 0px auto 10px auto;
     font-family: "Cormorant", Garamond;
     letter-spacing: 2px;
     color: rgb(35, 31, 32);
