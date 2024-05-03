@@ -1,4 +1,4 @@
-h3 {
+h3{
     margin: 20px 0px 0px;
     text-align: center;
     font-family: "Cormorant", Garamond;
@@ -9,27 +9,34 @@ h3 {
     letter-spacing: 3px;
 }
 
-.content {
-    margin: 0;
+.subHeading{
+    margin: 10px 0;
     font-family: "Cormorant", Garamond;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    color: #231f20;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
+
+span{
+    font-weight: bold;
+}
+
+.information{
+    margin: 10px 0;
+    font-family: "Cormorant", Garamond;
+    letter-spacing: 3px;
     color: #231f20;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
 }
 
-img {
-    width: 300px;
-    margin-top: 20px;
-}
-
 @media (max-width: 640px) {
-    h3 {
+    h3{
         font-size: 25px;
-    }
-
-    .content {
-        font-size: 16px;
     }
 }

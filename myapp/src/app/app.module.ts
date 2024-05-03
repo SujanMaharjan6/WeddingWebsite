@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { WeddingVenuesComponent } from './components/wedding-venues/wedding-venues.component';
 import { InvitationComponent } from './components/invitation/invitation.component';
+import { WeddingAttireComponent } from './components/wedding-attire/wedding-attire.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { InvitationComponent } from './components/invitation/invitation.componen
     FooterComponent,
     FaqComponent,
     WeddingVenuesComponent,
-    InvitationComponent
+    InvitationComponent,
+    WeddingAttireComponent
   ],
   imports: [
     BrowserModule,

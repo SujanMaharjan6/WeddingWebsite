@@ -28,6 +28,7 @@
     font-weight: normal;
     text-transform: uppercase;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 @media (max-width: 640px) {
