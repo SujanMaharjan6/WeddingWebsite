@@ -33,6 +33,6 @@ export class HeadersAndNavbarComponent implements OnInit, OnDestroy {
     const weddingDate = new Date('2024-07-03T00:00:00');
     const timeDiff = weddingDate.getTime() - today.getTime();
     const daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
-    this.daysUntil = `${daysDiff} DAYS TO GO!`;
+    daysDiff > 0 ? this.daysUntil = `${daysDiff} DAYS TO GO!` : this.daysUntil = "0 DAYS TO GO!"
   }
 }
